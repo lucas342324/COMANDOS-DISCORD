@@ -1,0 +1,5 @@
+$nomention
+$title[Trabalho]
+$description[Você trabalhou e ganhou $random[20;300] reais!]
+$addTimestamp
+$setUserVar[dinheiro;$sum[$getUserVar[dinheiro];$random[20;300]]]
