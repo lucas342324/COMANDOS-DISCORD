@@ -1,0 +1,12 @@
+2 variable join e leave comandos de bem vindos $onJoined[$getServerVar[join]] $title[Bem-Vindo!]
+$description[<@$authorID> Entrou no servidor!
+$serverName[$guildID]]
+$footer[Sistema]
+$addTimestamp
+$color[#fff034]  parte 2  $onLeave[$getServerVar[leave]] $nomention
+$title[Adeus...]
+$description[$username Saiu do servidor :(
+$serverName[$guildID]]
+$footer[Sistema]
+$addTimestamp
+$color[#fff034]
