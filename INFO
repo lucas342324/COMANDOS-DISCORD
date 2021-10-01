@@ -1,0 +1,13 @@
+Info: Mostra o perfil do usuário mencionado mas sem a necessidade de colocar o ID. Obs - feito por alguns membros do servidor. 
+$nomention
+$allowMention 
+$argsCheck[>1; Mencione alguém para ver o perfil!]
+$thumbnail[$userAvatar[$mentioned[1]]]
+$title[Perfil do Usuário 💻]
+$color[$getUserVar[cor;$mentioned[1]]]
+$description[Nome:`$username[$mentioned[1]]`
+**Insígnia**: $getUserVar[insig;$mentioned[1]] 
+Descrição:
+$getUserVar[meutexto;$mentioned[1]]]
+$image[$getUserVar[addimage;$mentioned[1]]]
+$footer[Use j!addimage para mudar seu perfil.]
