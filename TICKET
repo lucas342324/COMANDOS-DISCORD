@@ -1,0 +1,14 @@
+$nomention
+$newTicket[TICKET;No Subject Hás Been Given;Bem-vindo(a) <@$authorID>
+
+Ao finalizar o suporte utilize **`!fechar ticket`** para fechar o Ticket. 🔒
+
+;Ticket criado em {channel};**error** Please Try Again]
+
+
+PARTE 2 
+
+$nomention
+$closeTicket[An Error Occured.]
+**Seu Ticket foi fechado em $serverName[$guildID]**
+$dm
