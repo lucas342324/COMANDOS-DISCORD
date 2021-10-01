@@ -1,0 +1,7 @@
+$nomention
+
+$title[Ping!]
+$description[Meu ping é: $ping MS!]
+$footer[$username]
+$addTimestamp
+$color[#03fc52]
